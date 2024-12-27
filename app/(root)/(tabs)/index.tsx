@@ -21,7 +21,6 @@ import { Card, FeaturedCard } from "@/components/Cards";
 import { useAppwrite } from "@/lib/useAppwrite";
 import { useGlobalContext } from "@/lib/global-provider";
 import { getLatestProperties, getProperties } from "@/lib/appwrite";
-import seed from "@/lib/seed";
 
 const Home = () => {
   const { user } = useGlobalContext();
@@ -132,7 +131,7 @@ const Home = () => {
               )}
             </View>
 
-             <Button title="seed" onPress={seed} /> 
+             
 
             <View className="mt-5">
               <View className="flex flex-row items-center justify-between">
