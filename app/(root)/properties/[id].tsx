@@ -2,7 +2,7 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import { useLocalSearchParams } from 'expo-router'
 
-const property = () => {
+const Property = () => {
   const {id} = useLocalSearchParams
   return (
     <View>
@@ -11,4 +11,4 @@ const property = () => {
   )
 }
 
-export default property
+export default Property
