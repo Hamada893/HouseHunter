@@ -1,50 +1,95 @@
-# Welcome to your Expo app 👋
+# Real Estate Mobile App (Frontend)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to the repository for the **Real Estate Mobile App**, a frontend application built using **React**. This app showcases a seeded real estate platform where users can browse properties, view detailed information about each house, and authenticate using **Google Authentication**.
 
-## Get started
+## Table of Contents
 
-1. Install dependencies
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Google Authentication](#google-authentication)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
 
+## Overview
+
+This project is a **frontend-only** real estate mobile application built with React. It allows users to explore a list of seeded properties, each with its own detail page. The app integrates **Google Authentication** to provide a seamless login experience for users.
+
+## Features
+
+- **Property Listings**: Browse a list of seeded real estate properties.
+- **Property Details**: View detailed information about each property, including images, descriptions, and key features.
+- **Google Authentication**: Securely log in using your Google account.
+- **Responsive Design**: Optimized for mobile devices with a clean and intuitive user interface.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **React Router**: For handling navigation and routing within the app.
+- **Google Authentication**: For user authentication using Google OAuth.
+- **CSS/SCSS**: For styling the application.
+- **Axios**: For making API calls (if integrated with a backend in the future).
+- **React Icons**: For adding icons to the UI.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
    ```bash
-   npm install
-   ```
+   git clone https://github.com/your-username/real-estate-app.git
 
-2. Start the app
+Navigate to the project directory:
+bashCopycd real-estate-app
 
-   ```bash
-    npx expo start
-   ```
+Install dependencies:
+bashCopynpm install
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Start the development server:
+bashCopynpm start
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Open the app:
 
-## Get a fresh project
+The app should open automatically in your default browser at http://localhost:3000.
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Usage
 
-## Learn more
+Home Page: Displays a list of seeded properties. Click on any property to view its details.
+Property Detail Page: Shows detailed information about the selected property, including images, descriptions, and features.
+Google Authentication: Click the "Login with Google" button to authenticate using your Google account.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Google Authentication
+The app integrates Google Authentication to provide a secure and seamless login experience:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Users click the "Login with Google" button.
+They are redirected to Google's OAuth consent screen.
+After granting permission, users are authenticated and redirected back to the app.
 
-## Join the community
+Folder Structure
+Copyreal-estate-app/
+├── public/                  # Static assets
+├── src/
+│   ├── components/          # Reusable UI components
+│   ├── pages/               # Page components (Home, PropertyDetail, etc.)
+│   ├── assets/              # Images, icons, and other static files
+│   ├── styles/              # CSS/SCSS files
+│   ├── utils/               # Utility functions (e.g., authentication helpers)
+│   ├── App.js               # Main application component
+│   ├── index.js             # Entry point of the app
+│   └── .env                 # Environment variables (e.g., Google Client ID)
+├── package.json             # Project dependencies
+└── README.md                # This file
 
-Join our community of developers creating universal apps.
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Fork the repository.
+Create a new branch (git checkout -b feature/YourFeatureName).
+Commit your changes (git commit -m 'Add some feature').
+Push to the branch (git push origin feature/YourFeatureName).
+Open a pull request.
