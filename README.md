@@ -1,6 +1,15 @@
-# Real Estate Mobile App (Frontend)
+# Real Estate Mobile App aka HouseHunter (Front-end)
 
 Welcome to the repository for the **Real Estate Mobile App**, a frontend application built using **React**. This app showcases a seeded real estate platform where users can browse properties, view detailed information about each house, and authenticate using **Google Authentication**.
+
+## ScreenShots : 
+<div style="display: flex; align-items: center; gap: 10px;">
+  <img src="assets/images/homeScreen.png" width="300">
+  <img src="assets/images/searchScreen.png" width="300">
+  <img src="assets/images/detailsScreen.png" width="300">
+  <img src="assets/images/detailsScreen2.png" width="300">
+  <img src="assets/images/profileScreen.png" width="300">
+</div>
 
 ## Table of Contents
 
