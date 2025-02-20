@@ -39,8 +39,6 @@ This project is a **frontend-only** real estate mobile application built with Re
 - **React Router**: For handling navigation and routing within the app.
 - **Google Authentication**: For user authentication using Google OAuth.
 - **CSS/SCSS**: For styling the application.
-- **Axios**: For making API calls (if integrated with a backend in the future).
-- **React Icons**: For adding icons to the UI.
 
 ## Installation
 
@@ -58,7 +56,7 @@ bashCopynpm install
 
 
 ## Start the development server:
-bashCopynpm start
+-npx expo start
 
 Open the app:
 
